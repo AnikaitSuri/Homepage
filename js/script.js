@@ -9,7 +9,6 @@ $(document).ready(function(){
         $('img',this).toggle();
     });
 
-
 /* ========Associated Corporates, TPAs & Insurance Companies page load more function========== */
     jQuery('ul.level1').each(function(){
       if(jQuery(this).children('li').length>10){
